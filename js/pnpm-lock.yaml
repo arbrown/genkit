@@ -1271,7 +1271,11 @@ importers:
         version: link:../../plugins/ollama
       genkitx-openai:
         specifier: ^0.10.1
+<<<<<<< HEAD
         version: 0.10.1(@genkit-ai/ai@0.9.3)(@genkit-ai/core@0.9.3)
+=======
+        version: 0.10.1(@genkit-ai/ai@0.9.1)(@genkit-ai/core@0.9.1)
+>>>>>>> 754f8f15 (docs(js/plugins): add more context cache docs)
     devDependencies:
       rimraf:
         specifier: ^6.0.1
@@ -2060,11 +2064,19 @@ packages:
   '@firebase/util@1.9.5':
     resolution: {integrity: sha512-PP4pAFISDxsf70l3pEy34Mf3GkkUcVQ3MdKp6aSVb7tcpfUQxnsdV7twDd8EkfB6zZylH6wpUAoangQDmCUMqw==}
 
+<<<<<<< HEAD
   '@genkit-ai/ai@0.9.3':
     resolution: {integrity: sha512-5u64IcC5GCDmFmYZOGaL6e36pVsy1DyccFhrExFFlNU4tcBnqM76OIIFG1Fu6KGt/fvGFhllWatvBrKdqKESfw==}
 
   '@genkit-ai/core@0.9.3':
     resolution: {integrity: sha512-D9fVQjIOAY172X1U/98W+4wc3U1QWsilHc4gmLBANdG+Dok9rZpup8N2xac6W8Iy1P7SsL9YE4mUCKikxLSqLQ==}
+=======
+  '@genkit-ai/ai@0.9.1':
+    resolution: {integrity: sha512-OaNh89lK5NpczySPEVB1mLt20hE1wxj+vi1RnXEoDn9C1L8/Cs8mdyWtv05tAd5MWzxLJswIK53mIdrO1PufqQ==}
+
+  '@genkit-ai/core@0.9.1':
+    resolution: {integrity: sha512-IaazlxrjEz0mif7F/10HgAh3ExpLGLphZU0fJvV40VWZZ4mZNt2KXQg3Jul8YtREvGh7dhpBST49yfGpgPYJAQ==}
+>>>>>>> 754f8f15 (docs(js/plugins): add more context cache docs)
 
   '@google-cloud/aiplatform@3.25.0':
     resolution: {integrity: sha512-qKnJgbyCENjed8e1G5zZGFTxxNKhhaKQN414W2KIVHrLxMFmlMuG+3QkXPOWwXBnT5zZ7aMxypt5og0jCirpHg==}
@@ -6796,9 +6808,15 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
+<<<<<<< HEAD
   '@genkit-ai/ai@0.9.3':
     dependencies:
       '@genkit-ai/core': 0.9.3
+=======
+  '@genkit-ai/ai@0.9.1':
+    dependencies:
+      '@genkit-ai/core': 0.9.1
+>>>>>>> 754f8f15 (docs(js/plugins): add more context cache docs)
       '@opentelemetry/api': 1.9.0
       '@types/node': 20.16.9
       colorette: 2.0.20
@@ -6809,7 +6827,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+<<<<<<< HEAD
   '@genkit-ai/core@0.9.3':
+=======
+  '@genkit-ai/core@0.9.1':
+>>>>>>> 754f8f15 (docs(js/plugins): add more context cache docs)
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.25.1(@opentelemetry/api@1.9.0)
@@ -6913,13 +6935,8 @@ snapshots:
       eventid: 2.0.1
       extend: 3.0.2
       gcp-metadata: 6.1.0(encoding@0.1.13)
-<<<<<<< HEAD
       google-auth-library: 9.14.2(encoding@0.1.13)
-      google-gax: 4.3.2(encoding@0.1.13)
-=======
-      google-auth-library: 9.11.0(encoding@0.1.13)
       google-gax: 4.3.7(encoding@0.1.13)
->>>>>>> 87b01855 (feat(js/plugins/vertexai): add context caching)
       on-finished: 2.4.1
       pumpify: 2.0.1
       stream-events: 1.0.5
@@ -9242,10 +9259,17 @@ snapshots:
       - encoding
       - supports-color
 
+<<<<<<< HEAD
   genkitx-openai@0.10.1(@genkit-ai/ai@0.9.3)(@genkit-ai/core@0.9.3):
     dependencies:
       '@genkit-ai/ai': 0.9.3
       '@genkit-ai/core': 0.9.3
+=======
+  genkitx-openai@0.10.1(@genkit-ai/ai@0.9.1)(@genkit-ai/core@0.9.1):
+    dependencies:
+      '@genkit-ai/ai': 0.9.1
+      '@genkit-ai/core': 0.9.1
+>>>>>>> 754f8f15 (docs(js/plugins): add more context cache docs)
       openai: 4.53.0(encoding@0.1.13)
       zod: 3.23.8
     transitivePeerDependencies:
